@@ -1,0 +1,90 @@
+/*style for div */
+/*div for main page*/
+
+
+
+/*By cristobal K.*/
+
+
+
+
+/*menuicon*/
+.menuicon{width:40px; height:6px; background-color:darkslategray; margin:6px 0;}
+
+/*dropdown menu*/
+.dropbutton{background-color:red; color:white; padding:16px; font-size:20px; border:none; cursor:pointer;}
+.dropbutton:hover,.dropbutton:focus{background-color:blue;}
+
+.dropdown{positon:relative; display:inline-block;}
+.dropdown-content{display:none; position:absolute; background-color:yellow; min-width:160px; overflow:auto;
+box-shadow:2px 2px 2px black;}
+.dropdown-content a{color:black; padding:12px; 16px; text-decoration:none; display:block;}
+.dropdown a:hover{background-color:orange;}
+.show{display:block;}
+
+/*end drpdwn menu*/
+
+.dynamicdiv{max-width:auto; max-height:auto; color:white; box-shadow:3px 3px 5px gray;}
+.containalldiv{max-width:auto; max-height:auto; padding:1px;}
+
+/*class for text boxes*/
+.textBox1{max-width:100%; float:left; background-color:#f9fff9; height:auto;}
+
+
+
+
+/*experimental alla un div, */
+.cutBottom{width:100%; height:250px; overflow:hidden; margin:5px; padding:5px;}
+#toBeCut{min-width:100%; height:auto;}
+
+/*class kn id para kanja ujum un pictures kn divs */
+
+/*Screen @media to be specified later */
+[class*="smallFoto-"]{max-width:30%; height:auto; padding:2%; margin:1%; box-shadow:3px 3px 5px gray; background-color:#f9f9f9;}
+
+.smallFoto-left{float:left;}
+.smallFoto-right{float:right;}
+.facade{float:left; max-width:100%; height:auto;}
+
+	[class*="smallFoto-"]:hover{box-shadow:1px 1px 1px gray;}
+
+
+[class*="mediumFoto-"]{max-width:45%; height:auto; padding:15px; margin:15px;}
+
+.mediumFoto-right{float:right;}
+.mediumFoto-left{float:left;}
+
+
+
+/
+
+#photofacade{max-width:100%; max-height:auto; float:left; box-shadow:3px 3px 4px gray;}
+/*laka hundred percent alla un pic id. ngim relative c container la allan percentage la*/
+.containfacade{max-width:40%; max-height:auto; float:right; padding:10px; margin:10px;}
+
+
+/*kuam si overflow-x or overflow-y lu piom scroll left-right/ up-down lu ma overflow*/
+.containtabsdiv{width:auto; max-height:950px; padding:3px; box-shadow:2px 2px 3px gray; overflow-x:auto; overflow-y:auto;
+background-color:rgb(240, 250, 245); }
+
+/*kegaam si float ji div lu piom un ma clear / man side by side ja imbes un man stack*/
+/*no such thing as background-color:linear-gradient; it's background-IMAGE */
+.tabdivLeft{width:29%; max-height:500px; margin:16px; padding:5px; box-shadow:1px 1px 1px gray; float:left; background-image:linear-gradient(to right,rgb(245,230,235),white);
+overflow-y:hidden; }
+.tabdivCenter{width:29%; max-height:500px; margin:16px; padding:5px; box-shadow:1px 1px 1px gray; float:left; background-color:white;
+overflow-y:hidden; }
+.tabdivRight{width:29%; max-height:500px; margin:16px; padding:5px; box-shadow:1px 1px 1px gray; float:left; background-image:linear-gradient(to left,rgb(245,230,235),white);
+overflow-y:hidden; }
+.tabdivLeft:hover{opacity:0.8; box-shadow: 5px 5px 5px gray; background-image:linear-gradient(to right,rgb(245,230,235),rgb(245,230,235));}
+.tabdivCenter:hover{opacity:0.8; box-shadow: 5px 5px 5px gray; background-image:linear-gradient(to right,rgb(245,230,235),rgb(245,230,235));}
+.tabdivRight:hover{opacity:0.8; box-shadow: 5px 5px 5px gray; background-image:linear-gradient(to right,rgb(245,230,235),rgb(245,230,235));}
+#tabphoto{max-width:100%; height:auto; margin:1px;}
+
+/*design for where the anchor is*/
+.taiBox{display:flex;}
+.tailBox>div{background-color:#99dddd; width:100%; padding:1%;}
+.tailBox>div:hover{background-color:lightslategray;}
+
+
+
+/*div for sec pages*/

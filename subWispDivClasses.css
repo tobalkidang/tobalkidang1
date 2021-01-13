@@ -1,0 +1,53 @@
+/*div for sub WISPs*/
+/*these div classes are mainly for photo requirements for subWisps */
+
+
+
+
+#headPhoto{width:100%; height:auto; padding:4px; margin:5px;}
+.containHeadPhoto{max-width:30%; height:auto; padding:3px; margin:2%; float:right;}
+
+
+
+
+/*cat- small, dog- medium, bear- 100%/2; */
+
+
+		
+
+
+[class*="catFoto-"]{
+	background-color:#fs9f9f9;
+	padding:1%; margin:10px; 
+	max-width:30%; height:auto;
+	box-shadow:1px 1px px gray;
+}
+
+.catFoto-left{float:left;}
+.catFoto-right{float:right;}
+
+
+
+
+
+
+
+[class*="dogFoto-"]{
+	background-color:#f9f9f9;
+	padding:1%; margin:10px; 
+	max-width:40%; height:auto;
+	box-shadow:1px 1px 1px gray;
+}
+
+.dogFoto-left{float:left;}
+.dogFoto-right{float:right;}
+
+[class*="bearFoto-"]{
+	background-color:#f9fff9;
+	padding:1%; margin:10px; 
+	max-width:50%%; height:auto;
+	box-shadow:2px 2px 2px gray;
+}
+.bearFoto-left{float:left;}
+.bearFoto-right{float:right;}
+

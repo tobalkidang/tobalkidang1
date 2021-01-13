@@ -1,0 +1,76 @@
+/*rain css, because it's raining hier jetzt- crstbKdng*/
+
+.containSection{margin:5px; padding:5px; width:100%; height:auto;}
+.containAll{margin:3px; min-width:100%; height:auto;}
+
+
+.imageContainer{width:auto; height:auto;}
+.image-description{text-align:center; color:blue;}
+
+
+ .crest{
+	 width:25%;
+	 height:auto;
+	 box-shadow:2px 2px 3px gray;
+	 box-sizing:border-box;
+ transition-duration:0.3s;
+ }
+  .splash{
+	 width:50%;
+	 height:auto;
+	 box-shadow:2px 2px 3px gray;
+	 box-sizing:border-box;
+ transition-duration:0.3s;
+ }
+ 
+ 
+ .crest>img{width:100%; height:auto;}
+ 
+ .crest>p{/*imma leave this for awhile*/}
+ .crest:hover{/*ths one too*/}
+ 
+ .seal{width:50%; float:right; box-shadow:2px 3px 2px gray;}
+ .seal>p{font-family:courier; color:red;}
+.break{min-width:100%; height:0%;}
+#wrapIt{flex-wrap:wrap;}
+.elephant{display:flex; background-color:#f9fff9; padding:10px; }
+.elephant>div{background-color:f9f9f9;height:auto; margin:10px; padding:10px; box-sizing:border-box; min-width:33%;}
+
+
+.spring{display:flex; background-color:#f9f9f9; padding:5%; flex-wrap:wrap;}
+.spring>div{background-color:#ffffff; margin:10px; max-width:100%; height:auto;}
+ .spring>img{width:100%; height:auto; float:right; float:right;}
+
+ 
+ .spring>p{font-family:corbel; font-size:19px; color:blue; text-align:center;}
+ .spring:hover{/*ths one too*/}
+
+
+/*ok patch solution: just create another container divs, you don't have to find auto break*/
+/*maybe put the flex-wrap inside @media
+@media screen and (max-width:900px){
+	
+	.elephat>div{min-width:50%;}
+	ussualy don't put direction to column for width below 100%*/
+
+	
+	
+/*beware of stray brackets*/
+@media screen and (max-width:950px){
+	.elephant{flex-direction:column;}
+	.elephant>div{width:100%;} 
+	.crest{width:100%;}
+	.splash{width:100%;}
+	.spring{flex-direction:column; padding:1%;}
+	.spring>div{width:100%;}
+	.spring>img{width:100%;}
+	.seal{width:100%;}
+	/*you also have to change flex-direction (from row to column)  when using @media for smaller screens*/
+ /*this be the image card */
+}
+/* was entangled when i put <p> inside a div without realizing that <p> is supposed to be inside a img card as in .crest */
+ 
+ /*you can put a img card inside a flex box,
+ box-sizing computes the width/height and padding, margin as one; otherwise would separate those.
+ 
+ */

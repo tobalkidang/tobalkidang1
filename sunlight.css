@@ -1,0 +1,77 @@
+/*created by cristobalKidang 
+don't judge
+  {\_/}
+ ('.' )
+ / >$ \
+
+*/
+
+/*this is our main style sheet*/
+.centerText{text-align:center;}
+
+.tooltipSilver{margin-top:30px; text-align:center;}
+.tooltip{position:relative; border-bottom:1px solid black;}
+.tooltipContent{color:white; background-color:lightslategray; padding:3px; visibility:hidden;
+position:absolute; z-index:1; tex-align:center; width:200px;}
+.tooltip:hover>.tooltipContent{visibility:visible;}
+
+.bigCatContainer{width:100%; box-sizing:border-box; height:auto; margin:1%; padding:2%; margin-bottom:5%;}
+.bigCat{max-width:50%; height:auto; padding:1%; margin:5px; float:right;}
+.smallCat{max-width:30%; height:auto; padding:1%; margin:5px; float:right;}
+.smallCat>p{color:#777777; background-color:#f9fff9; text-align:center;}
+
+
+
+/* lagamput umalay alla pang "history" la (main.html) */
+/*this be for the facade */
+
+.alpha{display:flex; padding:10px; flex-direction:row;}
+
+.alphaLeft{box-sizing:border-box; background-color:#aaddbb; min-width:25.65%; height:auto;}
+.alphaRight{box-sizing:border-box; background-color:#eeffee; min-width:74.35%; height:auto;}
+
+/*clean*/
+
+.tree{width:100%; height:auto;}
+
+.canopy{height:180px; background-color:#aaddbb; width:100%;}
+.canopy-main{width:25%; background-color:#aaddbb; position:fixed; height:200px;}
+.trunk{max-height:100%; width:100%; background-color:#ff9988;}
+.root{width:25%; height:auto;}
+/*clean*/
+.shrub{width:100%; height:auto; box-sizing:border-box; padding:2px; margin:10px; display:flex;}
+.shrub>div{min-width:100%; height:20%; background-color:#889988; }
+
+/*not clean*/
+ul{
+list-style-type:none; margin:0; padding:0; min-width:25%; background-color:#ccffdd; overflow:auto; box-sizing:border-box;}
+li a{display:block; color:#445544; padding:18px 26px; text-decoration:none; font-family:arial; font-size:30px;}
+
+li a.active{background-color:#77aa77; color:#fff;}
+li a:hover:not(.active){background-color:#aaddaa; color:#fff;}
+/*clean*/
+.circular{border-radius:50%; width:100px; height:100px; float:left; padding:10px;}
+
+.mink{width:100px; height:auto; float:left; padding:1%;}
+.minkCircular{width:200px; height:200px; border-radius:50%;}
+
+/*inside right */
+
+.bigWISP{font-family:arial,corbel; text-shadow:1px 1px 2px gray; color:white; font-size:170px; text-align:center; margin-top:4%}
+
+.spearHead{color:#fff; font-size:20px; font-family:corbel; padding:5px; text-align:center;}
+
+
+@media screen and (max-width:900px){
+	.alpha{flex-direction:column;}
+	.alphaLeft{min-width:100%;}
+	.alphaRight{min-width:100%;}
+	ul{min-width:100%; position:relative; text-align:center;}
+	.bigWisp{font-size:85%;}
+	.canopy-main{position:relative;}
+	
+}
+
+/*fr the about section*/
+
+
